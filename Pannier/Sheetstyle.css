@@ -1,0 +1,93 @@
+body{
+	background-color: black;
+	margin:0px;
+}
+
+header,footer{
+	background-color: #2E4C48;
+	color:white;
+}
+
+footer{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+footer a, header a{
+	color:white;
+	text-decoration: none;
+	margin: 10px 0px;
+}
+header h2{
+	width: 700px;
+	text-shadow: 2px 2px 2px white;
+	color:#9EC7C2;
+	margin: 0;
+	margin: auto;
+	
+}
+header span{
+	float: right;
+	display: block;
+}
+header form{
+	margin:0;
+}
+input{
+	text-align: center;
+}
+.ArticlePresentation{
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+.ArticleTitre{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+h2{
+	font-size: 60px;
+	margin:auto;
+
+}
+.Panier{
+	clear: both;
+	background-color: #046380;
+	display: flex;
+	color: #ADCF4F;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.Panier p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.Panier h3{
+	font-size: 30px;
+}
+.Total{
+	font-size: 50px;
+	color: #B9121B;
+	font-weight: bolder;
+}
+.listeArticle{
+	display: flex;
+	flex-direction: row;
+	
+}
+.listeArticle a{
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	width: 420px;
+}
+
+.ModifPanier{
+color: white;
+}
+
