@@ -1,0 +1,49 @@
+body{
+	background-image: url('image/fond.jpg');
+	color: white;
+	text-align: center;
+}
+table{
+	margin-top:0px;
+	font-weight: bolder;
+	font-size: 20px;
+	background-color: gray;
+	border-radius: 10px;
+
+}
+
+.choixperso{
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: unset;
+	font-size: 20px;
+	color:white;
+}
+
+
+.green{
+	color:#78D61A;
+}
+
+.orange{
+	color:#f2d16d;
+}
+
+.red{
+	color:#D6331A;
+}
+
+h1{
+	font-size: 70px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #f2d16d;
+	text-shadow: 4px 4px 4px red;
+
+
+}
