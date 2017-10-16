@@ -1,0 +1,61 @@
+@font-face{
+	font-family: 'army_rangers';
+	src:url('../font/army_rangers/armyrangers.ttf');
+}
+
+@font-face{
+	font-family: 'godzilla';
+	src:url('../font/godzilla/Godzilla.ttf');
+}
+
+@font-face{
+	font-family: 'fira_code';
+	src:url('../font/fira-code/FiraCode-Medium.otf');
+}
+
+.tab{
+	border: 10px dashed white;
+	border-collapse: collapse;
+	text-align: center;
+}
+.tab,.tab a,.tab a:visited{
+	font-size: 16px;
+	color: black;
+}
+body{
+	background-image: url('../img/background.jpg');
+	color: white;
+}
+body *{
+	font-size: 30px;
+	text-shadow: 0 0 20px black;
+	font-family: fira_code;
+}
+
+.corps, footer{
+	width: 80%;
+	margin:auto;
+}
+
+.corps{
+	position: relative;
+	top:50px;
+}
+
+footer{
+	position: absolute;
+	bottom: 20px;
+}
+footer a, footer a:visited{
+	color:black;
+}
+a{
+	color:white;
+}
+a:visited{
+	
+	color: white;
+}
+ul{
+	list-style-type: hebrew;
+}
