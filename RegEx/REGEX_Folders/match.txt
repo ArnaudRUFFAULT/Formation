@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+C:/Program Files (x86)\Google\Chrome\..\Chrome\Application\chrome.exe
+/Program Files (x86)\Google\Chrome\Application\chrome.exe
+youhouuuu.exe
+.htaccess
+/.bat
+./coucou.txt
+../../.././bin/opengl.dll
+.minecraft/bin/minecraft.jar
+backup\main.exe.old
+Y:\dossier$\test.pdf
+C:\log.old\app.log
+//192.168.0.42/info.xml (facultatif)

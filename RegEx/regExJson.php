@@ -1,0 +1,1 @@
+^(?P<OBJECT>{(((?P<ROW>(?<STRING>"(([^\\"]|\\(["\\\/bfnrt]|u[a-fA-F0-9]{4})))*"):(?P<VALUE>(?P<NUMBER>-?(0|[1-9][0-9]*)(.[0-9]+)?([eE][+-]?[0-9]+)?)|(?&STRING)|(?&OBJECT)|true|false|null|(?P<ARRAY>\[((((?&VALUE),)*(?&VALUE)))?\]))),)?(?&ROW))*)}$

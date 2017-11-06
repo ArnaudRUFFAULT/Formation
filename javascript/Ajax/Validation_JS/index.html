@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Validation d'inputs</title>
+
+	<script src="input.js"></script>
+</head>
+<body>
+	<form action="" method="post" novalidate="novalidate">
+		<input class="required" type="email" name="mail" placeholder="example@domain.com">
+		<input class="required" type="text" name="name" placeholder="Nom">
+		<input type="number" name="age" min="1" placeholder="18">
+		<input type="tel" name="phone" placeholder="04 00 00 00 00">
+		<select name="animals">
+			<option>Chat</option>
+			<option>Chien</option>
+			<option>Rongeur</option>
+			<option>Serpent</option>
+		</select>
+		<input class="required" id="choice_yes" type="radio" name="choice" value="yes">
+		<label for="choice_yes">Yes</label>
+		<input id="choice_no" type="radio" name="choice" value="no">
+		<label for="choice_no">No</label>
+		<input type="submit">
+	</form>
+</body>
+</html>

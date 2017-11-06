@@ -1,0 +1,6 @@
+C:\Program Files (x86)\\Chrome\Application\chrome.exe
+C:/Program Files (x86)\Google\Chrome\....\Chrome\Application\chrome.exe
+:/pro.txt
+.minecraft/bi:n/minecraft.jar
+.minecraft/bi?n/minecraft.jar
+..\C:\root.inf
