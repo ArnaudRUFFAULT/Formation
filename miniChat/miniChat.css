@@ -1,0 +1,22 @@
+body {
+	background-color: #6F6262;
+}
+
+#historique{
+	padding: 50px;
+	width: 90%;
+	margin: auto;
+	height: 800px;
+	border:3px #963232 solid;
+	margin-bottom: 20px;
+}
+
+#ecrire{
+	width: 90%;
+	margin: auto;
+}
+
+
+#ecrire #contenu{
+	width: 95%;
+}
