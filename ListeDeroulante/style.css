@@ -1,0 +1,18 @@
+#test{
+	position: relative;
+	border: 1px black solid;
+	min-width: 500px;
+	min-height: 500px;
+}
+
+#lecteur{
+	position: absolute;
+	bottom: 0px;
+	width: 90%;
+	left: 94px;
+	margin-bottom: 30px;
+	height: 70px;
+	background-color: #817B7B;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #5D5757;
+}
