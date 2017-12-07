@@ -1,0 +1,56 @@
+body{
+	box-sizing: border-box;
+}
+#grille{
+	margin:auto;
+	border-collapse: collapse;
+}
+#grille td{
+	width: 85px;
+	height: 85px;
+	border:1px black solid;
+}
+
+#grille td img{
+	width: 50%;
+}
+#grille td button{
+	width: 50%;
+}
+#grille td button img{
+	width: 100%;
+}
+
+#grille td{
+	text-align: center;
+	font-size: 17px;
+	text-shadow:0px 0px 5px black;
+	text-transform: uppercase;
+}
+#grille .ciblable{
+	border: red solid 2px;
+}
+
+#grille tr:nth-child(odd) td:nth-child(even), #grille tr:nth-child(even) td:nth-child(odd){
+	background-color: gray;
+}
+
+.white{
+	color:black;
+	background-color: white;
+	border:1px black solid;
+}
+
+.black{
+	color:white;
+	background-color: black;
+	border:1px black solid;
+}
+
+.target{
+	background-color: #4CAE5A;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	outline: none;
+}
